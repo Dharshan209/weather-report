@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Wind, Droplets,LoaderPinwheel } from 'lucide-react';
-import "../Components/Weather.css";
+import "src/Components/weather.css";
 
 const API_KEY = 'bfeeae0b79cc34ad7c87dc6e0630bd33';
 const API_BASE_URL = 'https://api.openweathermap.org/data/2.5';
